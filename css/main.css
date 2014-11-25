@@ -1,0 +1,15 @@
+.top-row {
+	display: inline-block;
+}
+
+.middle-row {
+	display: inline-block;
+}
+
+.bottom-row {
+	display: inline-block;
+}
+
+.zero-row {
+	display: block;
+}
