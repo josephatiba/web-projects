@@ -1,15 +1,30 @@
-.top-row {
-	display: inline-block;
+body {
+	text-align: center;
+	display: inline;
 }
 
-.middle-row {
-	display: inline-block;
+.fields {
+	display: inline;
+	/*border: 1px solid black;*/
 }
 
-.bottom-row {
-	display: inline-block;
-}
-
-.zero-row {
+.instruction {
 	display: block;
+	/*border: 1px solid blue;*/
+}
+
+.equation {
+	display: inline;
+	/*border: 1px solid black;
+*/
+}
+
+
+#sign {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#operation div {
+	display: inline;
 }

@@ -3,49 +3,59 @@
 <head>
 	<title>Calculator</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/js" href="js/main.js">
 
 </head>
 
 <body>
 	<main>
-		<section class="calculator">
-			
-		    
-		    <input name="input" type="value" id="input_1" placeholder="enter first number here">
+		<section class="calculator"> 
 
-		    <div></div>
+			<h1>Calculator</h1>
 
-		    <input name="input" type="value" id="input_2" placeholder="enter second number here">
-		    <h2 id="output"></h2>
+		  <div class="fields">
 
+		  	<div class="fields">
+		    	<input class="equation" name="input" type="value" id="input_1" placeholder="enter first number here">
+		 	</div>
+
+		    <div id="sign" class="equation"></div>
+
+		    <div class="fields">
+		    	<input class="equation" name="input" type="value" id="input_2" placeholder="enter second number here">
+		    </div>
+
+		    <div class="fields">
+		    	<h2 class="equation" id="output"></h2>
+		    </div>
+		  
+		  </div>
 		
 
-			<div class="operation">
+			<div id="operation">
 
 				<div>
+					
 					<button id="addition">+</button>
 				</div>
 
-				<div id="subtraction">
-					<button>-</button>
+				<div>
+					<button id="subtraction">-</button>
 				</div>
 
-				<div id="multiplication">
-					<button>x</button>
+				<div>
+					<button id="multiplication">x</button>
 				</div>
 
-				<div id="division">
-					<button> / </button>
+				<div>
+					<button id="division"> / </button>
 				</div>
 
 				<div id="clear">
-					<button type="reset"> C </button>
+					<button type="reset"> Clear </button>
 				</div>
 
-				<div id="equals">
-					<button> = </button>
-				</div>
+			</div>
+
 
 
 		</section>
